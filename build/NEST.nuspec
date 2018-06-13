@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
 	<metadata>
 		<id>NEST2-Custom-Full</id>
-		<version>2.5.10004</version>
+		<version>2.5.10005</version>
 		<title>NEST - Elasticsearch .NET high level client (local build)</title>
 		<authors>Elastic and contributors</authors>
 		<owners>Elastic</owners>
@@ -17,11 +17,9 @@
 		<tags>elasticsearch,elastic,search,lucene,nest</tags>
 		<dependencies>
 			<group targetFramework=".NETFramework4.5">
-				<dependency id="Elasticsearch.Net" version="[$version$, $nextMajorVersion$)" />
 				<dependency id="Newtonsoft.Json" version="[$jsonDotNetCurrentVersion$, $jsonDotNetNextVersion$)" />
 			</group>
 			<group targetFramework=".NETFramework4.6">
-				<dependency id="Elasticsearch.Net" version="[$version$, $nextMajorVersion$)" />
 				<dependency id="Newtonsoft.Json" version="[$jsonDotNetCurrentVersion$, $jsonDotNetNextVersion$)" />
 			</group>
 			<group targetFramework=".NETStandard1.3">
@@ -29,7 +27,6 @@
 				<dependency id="System.Collections.Specialized" version="[4.3.0, )" />
 				<dependency id="System.Reflection.TypeExtensions" version="[4.3.0, )" />
 				<dependency id="System.Linq.Queryable" version="[4.0.1, )" />
-				<dependency id="Elasticsearch.Net" version="[$version$, $nextMajorVersion$)" />
 				<dependency id="Newtonsoft.Json" version="[$jsonDotNetCurrentVersion$, $jsonDotNetNextVersion$)" />
 			</group>
 		</dependencies>
