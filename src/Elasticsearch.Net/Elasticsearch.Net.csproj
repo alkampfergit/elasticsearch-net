@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks Condition="'$(DotNetCoreOnly)'==''">net45;net46;netstandard1.3</TargetFrameworks>
     <TargetFrameworks Condition="'$(DotNetCoreOnly)'=='1'">netstandard1.3</TargetFrameworks>
+    <AssemblyName>Elasticsearch2.Net</AssemblyName>
   </PropertyGroup>
   <ItemGroup Condition="'$(TargetFramework)'!='netstandard1.3'">
     <Reference Include="Microsoft.CSharp" />
